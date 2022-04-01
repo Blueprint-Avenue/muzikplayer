@@ -1,10 +1,10 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Library from "./library";
-import Player from "./player";
-import Trending from "./trending";
-import Feed from "./feed";
-import Favorites from "./favorites";
+import Library from "../library/library";
+import Player from "../player/player";
+import Trending from "../trending/trending";
+import Feed from "../feed/feed";
+import Favorites from "../favorites/favorites";
 
 export default function Home() {
 	return (
