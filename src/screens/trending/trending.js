@@ -1,5 +1,5 @@
 import React from "react";
 
 export default function Trending() {
-	return <div>T</div>;
+	return <div className="screen-container">T</div>;
 }
